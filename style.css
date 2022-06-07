@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.offer {
+	display: flex;
+	background-color: E5E5E5;
+	justify-content: center;
+	align-items: center;
+}
+
+.section {
+	width: 1220px;
+	height: 660 px;
+}
+
+.offer__child-wrapper {
+	display: block;
+	width: 45%;
+}
+
+.h2 {
+	font-family: Raleway;
+	font-weight: normal;
+	font-style: normal;
+	src: link rel="preconnect" href="https://fonts.googleapis.com";
+
+}
+
+.offer__child-wrapper {
+	display: flex;
+	flex-direction: column;
+	padding: 90px 165px;
+}
+
+.hr {
+	width: 170px;
+	border-bottom: 1px solid #EC7979;
+	align-self: center;
+}
+
+.h5 {
+	font-family: Raleway;
+	font-weight: normal;
+	font-style: regular;
+	src: link rel="preconnect" href="https://fonts.googleapis.com";
+}
+
+.table {
+	display: inline-block;
+	vertical-align: top;
+	width: 45%;
+}
+
+.tr,
+.td {
+	display: flex;
+	flex-direction: column;
+	padding: 90px 165px;
+	height: 383px;
+	width: 370px;
+}
